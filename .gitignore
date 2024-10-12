@@ -1,0 +1,15 @@
+.anchor
+.DS_Store
+target
+**/*.rs.bk
+node_modules
+test-ledger
+.yarn
+.surfpool
+# never commit keypairs
+*-keypair.json
+id.json
+keypair*.json
+
+# third-party program dumped from devnet for tests (scripts/fetch-programs.sh)
+tests/fixtures/*.so
